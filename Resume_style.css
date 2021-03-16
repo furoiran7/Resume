@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #DCDCDC;
+	font-family:  'garamond', serif;
+}
+/*Website page*/
+.resume-wrapper{
+	width: 50pc;
+	height: 52pc;
+	margin-left:20%;
+	margin-top: 4pc;
+	margin-bottom: 4pc;
+}
+.resume-wrapper li, p, a{
+	list-style-type: none;
+	font-size: 18px;
+	text-align: left;
+}
+.resume-wrapper a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+.resume-wrapper a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+/*My Personal Information*/
+.left {
+	float: left;
+	background-color: #F8F8FF;
+	width: 18pc;
+	height: 50.5pc;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.left img{
+	height: 15pc;
+	width: 15.5pc;
+	margin: 20px;
+	border-radius: 50%;
+}
+
+.info h3{
+	font-size: 20px;
+	font-family: 'lucida console', monospace;
+}
+/*Skills*/
+.skills h3{
+	font-size: 20px;
+	font-family: 'lucida console', monospace;
+}
+.info, .skills h3, ul, p{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+/*Educational Background*/
+.upper-rigth{
+	float: right;
+	background-color: #F8F8FF;
+	border-radius: 5px;
+	width: 31pc;
+	height: 30pc;
+}
+.EBG{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.EBG h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'copperplate', fantasy;
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+.EBG h3{
+	font-size: 25px;
+	font-family: 'lucida consloe', monospace;
+}
+.EBG h4{
+	font-size: 20px;
+	font-family: 'lucida consloe', monospace;
+}
+
+/*Contact Information*/
+.lower-right{
+	float: right;
+	background-color: #F8F8FF;
+	border-radius: 5px;
+	width: 31pc;
+	height: 20pc;
+	margin-top: 10px;
+}
+.contactinfo{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.contactinfo h3{
+	font-size: 25px;
+	font-family: 'lucida consloe', monospace;
+}
